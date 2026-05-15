@@ -16,7 +16,7 @@ helm:
   values:
     environment: dev
     replicaCount:
-      api: 4
+      api: 3
       frontend: 2
 
 # Per-cluster overrides
@@ -52,5 +52,5 @@ targetCustomizations:
         pdb:
           enabled: true
         replicaCount:
-          api: 4
+          api: 3
           frontend: 2
