@@ -29,7 +29,7 @@ targetCustomizations:
       values:
         environment: dev
         ingress:
-          host: compliance.lab.local
+          host: compliance-dev.lab.local
         autoscaling:
           enabled: false
         pdb:
